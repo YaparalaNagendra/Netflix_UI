@@ -1,0 +1,157 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+#top{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../land.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    padding: 10px 7%;
+    position: relative;
+}
+form {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    padding: 3%;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color:#000;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    opacity: 0.7;
+}
+form .input-box input{
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 2% 2% 2% 2%;
+    width: 300px;
+    height: 40px;
+    text-align:left ;
+    margin-left: 30px;
+    background-color: #fff;
+   
+}
+
+.fone{
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    position: absolute;
+}
+.ftwo{
+    display: none;
+}
+
+.bottom{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff; margin-top: 20px; margin-left: 25px;
+}
+button{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 320px;
+    height: 50px;
+    padding: 2% 2% 2% 2%;
+    border-radius: 4px;
+    background-color: red;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+button:hover{
+    background-color:#040D12 ;
+    color: beige;
+}
+.container{
+    width: 300px;
+    margin-left: 20%;
+    background-color: transparent;
+}
+h1{
+   padding-bottom: 10px;
+   margin-top: 0px;
+   color: #fff;
+   font-size: 40px;
+}
+.news{
+    margin-left: 10px;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.para{
+    color: #45474B; margin-top: 20px; margin-left: 25px;
+}
+@media only screen and (max-width: 767px) {
+
+    #top {
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../land.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+        padding: 10px 7%;
+    
+       
+    }
+    form {
+        position: absolute;
+        width: 311px;
+        height: 523px;
+        padding: 3%;
+        margin-left: 0%;
+        margin-top: 40%;
+        background-color: #000;
+        border-radius: 6px;
+        border-color: black;
+        border-style: solid;
+        opacity: 0.7;
+    }
+    button {
+        margin-top: 10px;
+        margin-left: 23px;
+        width: 263px;
+        height: 50px;
+        padding: 2% 2% 2% 2%;
+        border-radius: 4px;
+        background-color: red;
+        cursor: pointer;
+        color: #fff;
+        font-size: 20px;
+    }
+    form .input-box input {
+        border-radius: 4px;
+        margin-bottom: 20px;
+        padding: 2% 2% 2% 2%;
+        width: 252px;
+        height: 40px;
+        text-align: left;
+        margin-left: 18px;
+        background-color: #fff;
+    }
+    element.style {
+        color: #45474B;
+        margin-top: 20px;
+        margin-left: 25px;
+        line-height: 1.5rem;
+    }
+    .para{
+        line-height: 1.5rem;
+    }
+    .bottom{
+        margin-left: 10px;
+    }
+   
+  body{
+    background-image: url(../land.jpg);
+    background-size: cover;
+    width: 100%;
+  }
+
+}
+
+

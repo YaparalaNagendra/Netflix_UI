@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+
+    <section id="top">
+        <div id="homenav">
+            <div class="first">
+                <img class="fone" src="../logo2.png" alt="">
+                <img class="ftwo" src="nlog3.png" alt="">
+               
+            </div>
+            
+    <form id="loginForm">
+        <h1>Sign In</h1>
+        <div class="input-box">
+            <input type="text" id="username" placeholder="Username">
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="password" id="password">
+        </div>
+       
+        <button type="submit"> Sign in</button>
+
+        <div class="remember-pass" style="margin-top: 20px;">
+            <label style="color: #fff; margin-left: 30px;"> <input type="checkbox">Remember me</label>
+            <a class="bottom" href="#">Forgot password</a>
+        </div>
+        <p class="para">New to Netflix? <a style="color: #fff; font-size: 20px;" class="news" href="#">Sign up now.</a><br>
+            This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</p>
+    </form>
+
+    <div id="error"></div>
+</section>
+
+    <script src="script.js"></script>
+</body>
+</html>

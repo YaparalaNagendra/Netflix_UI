@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="script.js"></script>
+    <style>
+        .material-symbols-outlined {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 24
+        }
+        </style>
+</head>
+<body>
+    <div id="header">
+        <div id="nav_left">
+            <div class="left_logo">
+                <img class="fone" src="logo2.png" alt="">
+                <img class="ftwo" src="nlog3.png" alt="">
+            </div>
+            <div class="nav_elements">
+                <a class="nave" href="#banner">Home</a>
+                <a class="nave" href="#tv_shows">TV Shows</a>
+                <a class="nave" href="#horror">Movies</a>
+                <a  class="nave"href="#Top_rated">New & Popular</a>
+                <a class="nave" href="#My_list">MyList</a>
+                <a  class="nave"href="#">Browse by Language</a>
+            </div>
+            
+        </div>
+        <div id="nav_right">
+            <div class="search-container forw">
+                <div class="search-icon" id="search-icon white">&#128269;</div>
+                <input type="text" id="search-input" class="hidden">
+            </div>
+            <a class="nave kappu" href="#">Children</a>
+            <div class="notification-icon forw">
+                <div class="notification-badge">3</div>
+                <i class="fas fa-bell"></i>
+            </div>
+            
+            <div class="emoji forw">
+                <img src="ns.jpg" style="height: 30px;width: 30px;margin-right: 10px;" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="nav_elements2">
+        <a class="nave another" href="#tv_shows">TV Shows</a>
+        <a class="nave" href="#Horror">Movies</a>
+        <div class="dropdown nave">
+            <div class="dropdown-arrow">Categories&#9660;</div>
+            <div class="dropdown-content">
+              <a href="#horror">Horror</a>
+              <a href="#comedy">Comedy</a>
+              <a href="#romantic">Romantic</a>
+            </div>
+          </div>
+    </div>
+    <header id="banner">
+        <div id="banner_contents">
+            <h1 id="banner_title">
+
+            </h1>
+            <div id="banner_buttons">
+                <button id="banner_button" class="bu-one"><i class="fa-solid fa-play fa-xl"></i>Play</button>
+                <button id="banner_button" class="bu-two"><i class="fa-solid fa-circle-info fa-xl"></i>My List</button>
+            </div>
+            <p id="banner_description"></p>
+        </div>
+        <div id="banner_fadebottom"></div>
+    </header>
+   
+   <div id="headrow">
+        <div class="row">
+            <h2 class="row_title"></h2>
+            <div class="row_poster"></div>
+        </div>
+   </div>
+
+    
+</body>
+</html>
